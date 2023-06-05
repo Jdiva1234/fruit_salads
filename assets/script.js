@@ -18,6 +18,7 @@ const addFruit = (fruit) => {
         }
         e.target.remove()
 
+
     },
         { once: true })
     fruitList.appendChild(li)
