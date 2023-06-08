@@ -14,24 +14,38 @@
 
 <body>
     <selection id="inputSection">
-        <div>
+
         <form>
             <label for="fruitInput">Enter fruit name</label>
-            <input id="fruitInput" name="fruit" type="text" placeholder="Banana">
-            <input type="submit" value="submit">
+            <input name="fruit" id="fruitInput" type="text" placeholder="e.g Banana" required>
+            <button type="submit" value="submit" id="button">submit</button>
+
         </form>
-    </div>
     </selection>
 
-    <selection id="fruitSection">
-        <ul>
-            
-        </ul>
+    <selection id=" fruitSection">
+        <ul></ul>
     </selection>
 
     <selection id="nutritionSection">
         <p></p>
     </selection>
+
+    <section>
+        <form id="create-form">
+            <input id="fruitInput" type="text" name="fruit" placeholder="name">
+            <input id="button" type="submit" value="Create">
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <section>
+        <img id="fruityFooter"
+            src="https://img.freepik.com/premium-photo/different-fruits-isolated-white-background-with-copy-space_88281-2246.jpg?w=1380">
+    </section>
+
+
+
 </body>
 
 </html>
